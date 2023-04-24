@@ -6124,15 +6124,18 @@ table p {
   }
 }
 .team-details-item .content {
-  margin-top: -7px;
+  margin-top: 20px;
 }
 .team-details-item .thumb {
   margin-bottom: 67px;
   padding-right: 36px;
+  margin-top: -30px;
 }
 @media only screen and (max-width: 767px) {
   .team-details-item .thumb {
     padding-right: 0;
+    margin-top: 20px;
+    margin-bottom: -1px;
   }
 }
 .team-details-item .thumb img {
