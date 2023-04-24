@@ -1336,6 +1336,10 @@ table p {
   width: 88%;
 }
 
+.features-area {
+  margin: 100px 0;
+}
+
 .feature-tab-content .nav.nav-tabs {
   border-bottom: none;
   margin-bottom: 41px;
@@ -6322,16 +6326,16 @@ table p {
 -----------------------------------------------------------------------
 */
 .service-area.service-default-area {
-  padding: 130px 0 70px;
+  padding: 50px 0 70px;
 }
 @media only screen and (max-width: 1199px) {
   .service-area.service-default-area {
-    padding: 90px 0 50px;
+    padding: 50px 0 50px;
   }
 }
 @media only screen and (max-width: 991px) {
   .service-area.service-default-area {
-    padding: 90px 0 30px;
+    padding: 50px 0 30px;
   }
 }
 .service-area.class-service-area {
@@ -11208,6 +11212,7 @@ table p {
 */
 .footer-area.default-style .footer-main {
   padding: 135px 0 88px;
+  margin-top: 100px;
 }
 @media only screen and (max-width: 1199px) {
   .footer-area.default-style .footer-main {
