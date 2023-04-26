@@ -6394,6 +6394,12 @@ table p {
 .service-item .inner-content .thumb {
   position: relative;
 }
+.service-item .inner-content .thumb img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
 .service-item .inner-content .thumb:before {
   background-color: #f2f2f2;
   bottom: 0;
