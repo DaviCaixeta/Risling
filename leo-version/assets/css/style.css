@@ -3785,7 +3785,12 @@ table p {
     max-width: 150px;
   }
 }
-.header-logo-area .logo-light {
+
+.sticky-header:not(.sticky) .logo-light {
+  display: none;
+}
+
+.sticky .header-logo-area .logo-main {
   display: none;
 }
 
