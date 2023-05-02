@@ -5448,6 +5448,11 @@ table p {
 .class-details-item .content .class-details-info p {
   margin-bottom: 35px;
 }
+.class-details-item .thumb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 .class-details-item .class-info-area {
   display: absolute;
   position: relative;
